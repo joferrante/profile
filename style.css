@@ -1,0 +1,109 @@
+body {
+background-color:black;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+
+}
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+background: whitesmoke;
+border:4px groove green;
+margin: 10px;
+width: 700px;
+margin: 10px auto;
+
+
+}
+.img-circle {
+border-radius: 80%;
+box-shadow: 5px 5px 3px green;
+margin-left: auto;
+margin-right: auto;
+display:block;
+}
+
+#banner{
+    width: 100%;
+}
+
+.image-div{
+    height: 500px;
+    background-size: cover;
+    background-image: url(equestre.jpeg);
+}
+
+.title-center {
+align-content: center;
+text-align: center;
+}
+
+ul#langue-align li{
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#link-linkedin {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.horizontal {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.horizontal li {
+    display: inline;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
+    }
+   .horizontal i {
+    font-size: 50px;
+    color: rgb(250 250 250);
+    color: green;
+   }
+   .horizontal i:hover {
+    color: blue;
+   }
+   .btn-grenn {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+   }
+
+   .btn-grenn:hover {
+    background-color: rgb(250 250 250);
+    color: green;
+   }
+
+.link{
+height: 490px;
+}
+@media (max-width: 750px){
+    .section{
+        background-color:  rgb(0, 153, 255); 
+        width: 400px;   
+        box-sizing: border-box;
+    }
+    .image-div {
+    background-color: rgb(0, 153, 255); 
+    background-position: center;
+    width: 400px;   
+    box-sizing: border-box;
+    padding: 20px;
+    }
+}
+.title-center {
+text-align: center;
+}
